@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+.parent{
+    width: 100%;
+    height: 900px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.header{
+    margin-top: 10px;
+    width: 70%;
+    height: 70%;
+    display: flex;
+    position: relative;
+}
+.left{
+    width: 50%;
+    height: 100%;
+    background-image: url(https://static.cdninstagram.com/images/instagram/xig/homepage/phones/home-phones-2x.png?__makehaste_cache_breaker=73SVAexZgBW);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+.pic1{
+    width: 248px;
+    height: 535px;
+    border-radius: 25px;
+    position: absolute;
+    top: 27px;
+    right: 63px;
+}
+.right{
+    width: 38%;
+    height: 100%;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+.pic2{
+    width: 200px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.rightup{
+    width: 100%;
+    height: 65%;
+    border: solid 1px gray;
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+.rightup>button{
+    width: 75%;
+    height: 8%;
+    border: none;
+    color: white;
+    background-color: blue;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+input{
+    width: 75%;
+    height: 10%;
+    border-radius: 3px;
+    border: solid 1px gray;
+    background-color: whitesmoke;
+    padding: 10px;
+}
+.gor{
+    width: 75%;
+    height: 10%;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    color: rgb(68, 67, 67);
+    /* background-color: green; */
+}
+.facebook{
+    width: 75%;
+    height: 10%;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    /* background-color: green; */
+}
+.g{
+    width: 40%;
+    height: 1px;
+    border: solid 1px gray;
+}
+.r{
+    width: 40%;
+    height: 1px;
+    border: solid 1px gray;
+}
+.fb{
+    width: 20px;
+}
+.rightmid{
+    width: 100%;
+    height: 10%;
+    border: solid 1px gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rightdown{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+}
+.opts{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.app{
+    width: 150px;
+}
+.app2{
+    width: 120px;
+}
+.footer{
+    width: 70%;
+    height: 20%;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    flex-direction: column;
+}
+ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.downfooter{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.cont{
+    width: 7%;
+    border: none;
+}
